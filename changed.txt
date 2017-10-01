@@ -1,0 +1,38 @@
+-Folder
+	schoolsystem/js   -------------added
+	(html2canvas.min.js $ jspdf.min.js)
+
+------------------------php files--------------
+
+-schoolsystem/application/controllers/Admin.php
+	manage_attendance(){} --------updated
+	attendance_report(){}---------added
+	attendance_report_print_view(){}--------added
+	attendance_selector() ---------updated
+	attendance_report_view() ------added
+	tabulation_sheet()  -----------updated
+	tabulation_sheet_print_view() -added
+	tabulation_sheet_print_view_control()-----added
+	manage_marks()  ---------------updated
+	marks()  ----------------------updated
+	student_promotion()  ----------added ---------****
+	manage_enrollment()  ----------added ---------****
+	id_card()  ----------added ---------****
+
+-schoolsystem/application/views/backend/admin
+
+	attendance_report.php  -------- added
+	manage_attendance.php  ---------updated
+	marks.php ----------------------updated
+	navigation.php / <!-- DAILY ATTENDANCE --> --updated
+	navigation.php / <!-- STUDENT PROMOTION --> --added ----****
+	navigation.php / <!-- ID CARD -->          ----added ---****
+	tabulation_sheet.php   ----------updated
+	tabulation_sheet_print_view.php  ----updated
+	student_promotion.php  ---------added     --------------****
+	student_promotion_performance.php  ---------added     --------------****
+
+-schoolsystem/application/views/backend
+
+	attendance_report_print_view.php ----- added
+	
